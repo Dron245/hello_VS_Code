@@ -1,0 +1,308 @@
+@font-face {
+	font-family: "DEADHEAD ROUGH";
+	src: url("../fonts/DEADHEAD ROUGH.eot");
+	src: local("☺"), url("fonts/DEADHEAD ROUGH.woff") format("woff"),
+		url("../fonts/DEADHEAD ROUGH.ttf") format("truetype"), url("../fonts/DEADHEAD ROUGH.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*--------------------*/
+
+body,
+html {
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+body {
+	background-color: rgb(194, 186, 186);
+}
+.wraperr {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1280px;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+.content {
+	flex: 1 1 auto;
+	background-color: white;
+}
+.conteiner {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+/*@media (max-width: 1180px) {
+	.conteiner {
+		max-width: 70px;
+	}
+}*/
+header {
+	background-color: #445161;
+}
+.rty {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0px;
+}
+.levo {
+	font-weight: 400;
+	color: #ffffff;
+	font-family: Arial;
+}
+
+.subtitle {
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+	color: #ffffff;
+}
+li {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+li::before {
+	content: "";
+	padding-right: 28px;
+	background: url(..//qwe/icon/check_icon_346.png) 0 0 no-repeat;
+}
+footer {
+	background-color: rgb(214, 205, 205);
+	width: 1280px;
+	margin: 0 auto;
+}
+.footer_row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 65px;
+}
+.niz {
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	color: #445162;
+}
+.what {
+	padding: 50px 0;
+}
+
+.what_row {
+	display: flex;
+}
+.what_img {
+	flex: 0 0 430px;
+
+	margin-right: 15px;
+}
+
+.cto_takoe {
+	font-family: Arial;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #445161;
+	margin-bottom: 36px;
+}
+.otvet {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #333333;
+	font-family: "DEADHEAD ROUGH";
+}
+.otv1 {
+	margin-bottom: 20px;
+}
+.columns {
+	background-color: rgb(229, 233, 233);
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.columns_hi {
+	font-size: 30px;
+	line-height: 36px;
+
+	color: #445161;
+	text-align: center;
+	padding-top: 48px;
+	margin-bottom: 30px;
+}
+
+.spisok_row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -8px;
+}
+.spisok_row_column {
+	display: flex;
+
+	margin-bottom: 30px;
+	flex: 0 1 50%;
+}
+.spisok_row_column_img {
+	margin-right: 15px;
+}
+
+.srch {
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 15px;
+	color: #445161;
+	margin-top: -5px;
+}
+.srcht {
+	font-size: 16px;
+	line-height: 24px;
+	color: #333333;
+	font-family: "Supermercado One";
+}
+
+.vertical {
+	max-width: 990px;
+	margin: 0 auto;
+}
+.verth {
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	color: #445161;
+	margin: 49px 0 29px;
+}
+.tricolumns {
+	display: flex;
+}
+.colum {
+	width: 300px;
+	height: auto;
+	background-color: rgb(123, 162, 221);
+	border-radius: 10px;
+	margin-bottom: 45px;
+	border: 2px solid rgb(123, 162, 221);
+	display: flex;
+	flex-direction: column;
+	margin-right: 45px;
+}
+.budurad {
+	font-family: Arial;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 18px 0 12px;
+}
+.deistvie {
+	background-color: white;
+	font-size: 40px;
+	line-height: 30px;
+	text-align: center;
+	color: #445162;
+	padding: 25px 0 19px;
+}
+.colum_text {
+	font-size: 14px;
+	line-height: 24px;
+	padding: 19px 20px;
+	color: #ffffff;
+	flex: 1 0 auto;
+	font-family: "DEADHEAD ROUGH";
+}
+.deistv2 {
+	background-color: white;
+	border-radius: 7px;
+	text-align: center;
+
+	width: 260px;
+	height: 40px;
+	margin: 0 auto 20px;
+}
+.ssbllka {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #445161;
+}
